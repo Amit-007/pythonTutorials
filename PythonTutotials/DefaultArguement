@@ -45,3 +45,25 @@ This makes a difference when the default is a mutable object such as a list, dic
 or instances of most classes. For example, the following function accumulates
 the arguments passed to it on subsequent calls:
 """
+
+def f1(a, L=[]):
+    L.append(a)
+    return  L
+
+print(f1(1))
+print(f1(2))
+print(f1(3))
+
+# If you don’t want the default to be shared between subsequent calls, you can write the function like this instead:
+
+def f2(a, L=None):
+    if L is None:
+        L = []
+    L.append(a)
+    return L
+
+print(f2(1))
+print(f2(2))
+print(f2(3))
+print(f2(4))
+
