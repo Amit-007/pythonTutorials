@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d27a8cd-897a-4950-a0cd-32a8d1ab2b34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Important Links" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DefaultArguement" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PEP8-CodingStandards" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,11 +55,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Important Links" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Important Links" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Important Links">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultArguement" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DefaultArguement">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PEP8-CodingStandards" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PEP8-CodingStandards">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="1495" column="3" lean-forward="true" selection-start-line="1495" selection-start-column="3" selection-end-line="1495" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -95,14 +115,35 @@
         <option value="$PROJECT_DIR$/ControlFlow.py" />
         <option value="$PROJECT_DIR$/Functions.py" />
         <option value="$PROJECT_DIR$/Important Links" />
+        <option value="$PROJECT_DIR$/DefaultArguement" />
+        <option value="$PROJECT_DIR$/PEP8-CodingStandards" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="23" />
+    <option name="x" value="210" />
+    <option name="y" value="79" />
     <option name="width" value="1400" />
     <option name="height" value="937" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Functions">
+  <component name="RunManager" selected="Python.DefaultArguement">
     <configuration name="ControlFlow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,6 +205,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonTutotials" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ControlFlow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="DefaultArguement" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonTutotials" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DefaultArguement" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,18 +277,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Numbers" />
       <item index="1" class="java.lang.String" itemvalue="Python.String" />
       <item index="2" class="java.lang.String" itemvalue="Python.ControlFlow" />
       <item index="3" class="java.lang.String" itemvalue="Python.Functions" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DefaultArguement" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Functions" />
-        <item index="1" class="java.lang.String" itemvalue="Python.String" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ControlFlow" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Numbers" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.DefaultArguement" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Functions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.String" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ControlFlow" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -252,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510652077872</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Important Links Added">
+      <created>1510659822990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510659822990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="23" width="1400" height="937" extended-state="0" />
+    <frame x="210" y="79" width="1400" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -287,7 +354,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Functions Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions Added" />
+    <MESSAGE value="Important Links Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Important Links Added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,7 +495,23 @@
     <entry file="file://$PROJECT_DIR$/Important Links">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefaultArguement">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PEP8-CodingStandards">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="1495" column="3" lean-forward="true" selection-start-line="1495" selection-start-column="3" selection-end-line="1495" selection-end-column="3" />
           <folding />
         </state>
       </provider>

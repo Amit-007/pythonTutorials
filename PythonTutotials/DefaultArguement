@@ -1,0 +1,47 @@
+"""
+. Default Argument Values
+The most useful form is to specify a default value for one or more arguments.
+This creates a function that can be called with fewer arguments than it is defined to allow. For example:
+"""
+
+
+def ask_ok(prompt, retries=4, remainder='Please try Again!'):
+    while True:
+        ok = input(prompt)
+        if ok in ('y', 'ye', 'yes', 'Y', 'YE', 'YES'):
+            return True
+        if ok in ('n', 'no', 'N', 'NO',):
+            return False
+        retries = retries - 1
+
+        if retries < 0:
+            raise ValueError('Inalid User Response')
+
+        print(remainder)
+
+
+# ask_ok('Enter your Choice ', 5, 'Enter Something Yes Or No \n')
+# ask_ok('Enter your Choice ')
+ask_ok('ENter Choice', 2)
+
+""" This example also introduces the in keyword. This tests whether or not a sequence contains a certain value. 
+"""
+
+# The default values are evaluated at the point of function definition in the defining scope, so that
+
+i = 5
+
+
+def f(arg=i):
+    print(arg)
+
+
+i = 6
+f()
+
+""" will print 5.
+Important warning: The default value is evaluated only once.
+This makes a difference when the default is a mutable object such as a list, dictionary,
+or instances of most classes. For example, the following function accumulates
+the arguments passed to it on subsequent calls:
+"""
